@@ -23,6 +23,6 @@ LinkedList* init_linked_list();
 
 void add(LinkedList *, int);
 
-void remove(LinkedList *, int);
+int remove(LinkedList *, int);
 
 #endif //C_LINKED_LIST_LINKEDLIST_H

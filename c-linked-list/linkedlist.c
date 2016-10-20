@@ -5,6 +5,21 @@
 #include <stdlib.h>
 #include "linkedlist.h"
 
+/*
+typedef struct {
+    int value;
+    struct Node *next;
+    struct Node *previous;
+} Node;
+
+typedef struct {
+    Node *first_node;
+    Node *last_node;
+    int size;
+
+} LinkedList;
+*/
+
 LinkedList *init_linked_list() {
     LinkedList *list = malloc(sizeof(LinkedList));
     list->first_node = list->first_node = 0;
@@ -28,7 +43,23 @@ void add(LinkedList *list, int value) {
     }
 }
 
-void remove(LinkedList *list, int value) {
+int remove(LinkedList *list, int value) {
+    Node *node = list->first_node;
 
+    while (node != 0) {
+        if (node->value == value) {
+            Node *previous = node->previous;
+            Node *next = node->next;
+            if (previous != 0)
+                previous->next = next;
+            if (next != 0)
+                next->previous = previous;
+            return 0;
+        } else {
+            node = node->next;
+        }
+
+        return -1;
+    }
 }
 
