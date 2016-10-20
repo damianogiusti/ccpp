@@ -43,7 +43,7 @@ void add(LinkedList *list, int value) {
     }
 }
 
-int remove(LinkedList *list, int value) {
+int remove_item(LinkedList *list, int value) {
     Node *node = list->first_node;
 
     while (node != 0) {
@@ -58,8 +58,7 @@ int remove(LinkedList *list, int value) {
         } else {
             node = node->next;
         }
-
-        return -1;
     }
+    return -1;
 }
 
