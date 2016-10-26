@@ -3,10 +3,10 @@
 //
 #include <stdio.h>
 
-int fact(int number) {
+int sums(int number) {
     if (number == 0)
         return 0;
-    return number + fact(number - 1);
+    return number + sums(number - 1);
 }
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
     float avg = 0;
     for (i = 0; i < length; i++)
         avg += array[i] * (weight--);
-    avg /= fact(length);
+    avg /= sums(length);
 
     printf("weighted average of array is: %.2f\n", avg);
 
