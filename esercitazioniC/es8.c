@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 typedef enum {
-    TRUE, FALSE
+    FALSE, TRUE
 } boolean;
 
 void swap(float array[], int indexA, int indexB) {
@@ -16,7 +16,7 @@ void swap(float array[], int indexA, int indexB) {
 
 void sort(float array[], int size) {
     boolean swapped = TRUE;
-    while (swapped == TRUE) {
+    while (swapped) {
         swapped = FALSE;
         int i;
         for (i = 0; i < size - 1; i++) {
