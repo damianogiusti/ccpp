@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g   CMakeFiles/camping.dir/camping_group.c.o CMakeFiles/camping.dir/es1.c.o CMakeFiles/camping.dir/main_menu.c.o CMakeFiles/camping.dir/pricing_policy.c.o  -o camping 

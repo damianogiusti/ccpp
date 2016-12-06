@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clear
+
+for file in *.c; do
+    gcc $file
+    echo
+    echo "("$file")";
+    ./a.out
+    (( i++ ))
+
+done
+
+exit;
