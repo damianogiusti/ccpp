@@ -4,3 +4,5 @@ typedef struct Date {
 	int month;
 	int year;
 } Date;
+
+char *stringifyDate(Date);

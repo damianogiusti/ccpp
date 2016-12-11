@@ -5,4 +5,8 @@ int main();
 
 int ask_if_wants_to_repeat();
 
-int calculatePrice(CampingGroup *);
+void initHouses(House[]);
+
+void printBookings(CampingGroupBooking[], int);
+
+int calculatePrice(CampingGroupBooking *);

@@ -90,10 +90,16 @@
 		<Unit filename="/home/damiano/c-projects/camping/camping_group.h">
 			<Option target="camping"/>
 		</Unit>
-		<Unit filename="/home/damiano/c-projects/camping/es1.c">
+		<Unit filename="/home/damiano/c-projects/camping/camping_main.c">
 			<Option target="camping"/>
 		</Unit>
-		<Unit filename="/home/damiano/c-projects/camping/es1.h">
+		<Unit filename="/home/damiano/c-projects/camping/camping_main.h">
+			<Option target="camping"/>
+		</Unit>
+		<Unit filename="/home/damiano/c-projects/camping/date.c.c">
+			<Option target="camping"/>
+		</Unit>
+		<Unit filename="/home/damiano/c-projects/camping/date.h">
 			<Option target="camping"/>
 		</Unit>
 		<Unit filename="/home/damiano/c-projects/camping/main_menu.c">
@@ -106,9 +112,6 @@
 			<Option target="camping"/>
 		</Unit>
 		<Unit filename="/home/damiano/c-projects/camping/pricing_policy.h">
-			<Option target="camping"/>
-		</Unit>
-		<Unit filename="/home/damiano/c-projects/camping/structs.h">
 			<Option target="camping"/>
 		</Unit>
 		<Unit filename="/home/damiano/c-projects/camping/CMakeLists.txt">

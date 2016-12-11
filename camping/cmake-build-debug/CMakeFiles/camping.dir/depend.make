@@ -4,9 +4,10 @@
 CMakeFiles/camping.dir/camping_group.c.o: ../camping_group.c
 CMakeFiles/camping.dir/camping_group.c.o: ../camping_group.h
 
-CMakeFiles/camping.dir/es1.c.o: ../camping_group.h
-CMakeFiles/camping.dir/es1.c.o: ../es1.c
-CMakeFiles/camping.dir/es1.c.o: ../es1.h
+CMakeFiles/camping.dir/camping_main.c.o: ../camping_group.h
+CMakeFiles/camping.dir/camping_main.c.o: ../camping_main.c
+CMakeFiles/camping.dir/camping_main.c.o: ../camping_main.h
+CMakeFiles/camping.dir/camping_main.c.o: ../main_menu.h
 
 CMakeFiles/camping.dir/main_menu.c.o: ../main_menu.c
 CMakeFiles/camping.dir/main_menu.c.o: ../main_menu.h

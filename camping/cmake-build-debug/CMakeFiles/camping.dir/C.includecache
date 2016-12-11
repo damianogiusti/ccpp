@@ -14,15 +14,19 @@ camping_group.h
 stdlib.h
 -
 
-/home/damiano/c-projects/camping/es1.c
+/home/damiano/c-projects/camping/camping_main.c
 stdio.h
 -
 stdlib.h
 -
-es1.h
-/home/damiano/c-projects/camping/es1.h
+camping_main.h
+/home/damiano/c-projects/camping/camping_main.h
+main_menu.h
+/home/damiano/c-projects/camping/main_menu.h
+string.h
+/home/damiano/c-projects/camping/string.h
 
-/home/damiano/c-projects/camping/es1.h
+/home/damiano/c-projects/camping/camping_main.h
 stdlib.h
 /home/damiano/c-projects/camping/stdlib.h
 camping_group.h

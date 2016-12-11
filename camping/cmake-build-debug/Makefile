@@ -150,32 +150,59 @@ camping_group.c.s:
 	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/camping_group.c.s
 .PHONY : camping_group.c.s
 
-es1.o: es1.c.o
+camping_main.o: camping_main.c.o
 
-.PHONY : es1.o
+.PHONY : camping_main.o
 
 # target to build an object file
-es1.c.o:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/es1.c.o
-.PHONY : es1.c.o
+camping_main.c.o:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/camping_main.c.o
+.PHONY : camping_main.c.o
 
-es1.i: es1.c.i
+camping_main.i: camping_main.c.i
 
-.PHONY : es1.i
+.PHONY : camping_main.i
 
 # target to preprocess a source file
-es1.c.i:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/es1.c.i
-.PHONY : es1.c.i
+camping_main.c.i:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/camping_main.c.i
+.PHONY : camping_main.c.i
 
-es1.s: es1.c.s
+camping_main.s: camping_main.c.s
 
-.PHONY : es1.s
+.PHONY : camping_main.s
 
 # target to generate assembly for a file
-es1.c.s:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/es1.c.s
-.PHONY : es1.c.s
+camping_main.c.s:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/camping_main.c.s
+.PHONY : camping_main.c.s
+
+date.c.o: date.c.c.o
+
+.PHONY : date.c.o
+
+# target to build an object file
+date.c.c.o:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.o
+.PHONY : date.c.c.o
+
+date.c.i: date.c.c.i
+
+.PHONY : date.c.i
+
+# target to preprocess a source file
+date.c.c.i:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.i
+.PHONY : date.c.c.i
+
+date.c.s: date.c.c.s
+
+.PHONY : date.c.s
+
+# target to generate assembly for a file
+date.c.c.s:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.s
+.PHONY : date.c.c.s
 
 main_menu.o: main_menu.c.o
 
@@ -243,9 +270,12 @@ help:
 	@echo "... camping_group.o"
 	@echo "... camping_group.i"
 	@echo "... camping_group.s"
-	@echo "... es1.o"
-	@echo "... es1.i"
-	@echo "... es1.s"
+	@echo "... camping_main.o"
+	@echo "... camping_main.i"
+	@echo "... camping_main.s"
+	@echo "... date.c.o"
+	@echo "... date.c.i"
+	@echo "... date.c.s"
 	@echo "... main_menu.o"
 	@echo "... main_menu.i"
 	@echo "... main_menu.s"

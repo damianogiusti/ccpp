@@ -12,6 +12,6 @@ set(SOURCE_FILES
     main_menu.h
     pricing_policy.c
     pricing_policy.h
-    structs.h)
+        date.h date.c)
 
 add_executable(camping ${SOURCE_FILES})
