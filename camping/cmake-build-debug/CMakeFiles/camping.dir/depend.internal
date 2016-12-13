@@ -4,15 +4,21 @@
 CMakeFiles/camping.dir/camping_group.c.o
  /home/damiano/c-projects/camping/camping_group.c
  /home/damiano/c-projects/camping/camping_group.h
+ /home/damiano/c-projects/camping/date.h
 CMakeFiles/camping.dir/camping_main.c.o
  /home/damiano/c-projects/camping/camping_group.h
  /home/damiano/c-projects/camping/camping_main.c
  /home/damiano/c-projects/camping/camping_main.h
+ /home/damiano/c-projects/camping/date.h
  /home/damiano/c-projects/camping/main_menu.h
+CMakeFiles/camping.dir/date.c.o
+ /home/damiano/c-projects/camping/date.c
+ /home/damiano/c-projects/camping/date.h
 CMakeFiles/camping.dir/main_menu.c.o
  /home/damiano/c-projects/camping/main_menu.c
  /home/damiano/c-projects/camping/main_menu.h
 CMakeFiles/camping.dir/pricing_policy.c.o
  /home/damiano/c-projects/camping/camping_group.h
+ /home/damiano/c-projects/camping/date.h
  /home/damiano/c-projects/camping/pricing_policy.c
  /home/damiano/c-projects/camping/pricing_policy.h

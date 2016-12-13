@@ -13,6 +13,8 @@ camping_group.h
 /home/damiano/c-projects/camping/camping_group.h
 stdlib.h
 -
+date.h
+/home/damiano/c-projects/camping/date.h
 
 /home/damiano/c-projects/camping/camping_main.c
 stdio.h
@@ -31,6 +33,12 @@ stdlib.h
 /home/damiano/c-projects/camping/stdlib.h
 camping_group.h
 /home/damiano/c-projects/camping/camping_group.h
+
+/home/damiano/c-projects/camping/date.c
+date.h
+/home/damiano/c-projects/camping/date.h
+
+/home/damiano/c-projects/camping/date.h
 
 /home/damiano/c-projects/camping/main_menu.c
 main_menu.h

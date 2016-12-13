@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clear
+
+for file in *.cpp; do
+    g++ $file
+    echo
+    echo "("$file")";
+    ./a.out
+    (( i++ ))
+
+done
+
+exit;

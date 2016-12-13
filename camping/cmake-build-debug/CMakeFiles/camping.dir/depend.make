@@ -3,16 +3,22 @@
 
 CMakeFiles/camping.dir/camping_group.c.o: ../camping_group.c
 CMakeFiles/camping.dir/camping_group.c.o: ../camping_group.h
+CMakeFiles/camping.dir/camping_group.c.o: ../date.h
 
 CMakeFiles/camping.dir/camping_main.c.o: ../camping_group.h
 CMakeFiles/camping.dir/camping_main.c.o: ../camping_main.c
 CMakeFiles/camping.dir/camping_main.c.o: ../camping_main.h
+CMakeFiles/camping.dir/camping_main.c.o: ../date.h
 CMakeFiles/camping.dir/camping_main.c.o: ../main_menu.h
+
+CMakeFiles/camping.dir/date.c.o: ../date.c
+CMakeFiles/camping.dir/date.c.o: ../date.h
 
 CMakeFiles/camping.dir/main_menu.c.o: ../main_menu.c
 CMakeFiles/camping.dir/main_menu.c.o: ../main_menu.h
 
 CMakeFiles/camping.dir/pricing_policy.c.o: ../camping_group.h
+CMakeFiles/camping.dir/pricing_policy.c.o: ../date.h
 CMakeFiles/camping.dir/pricing_policy.c.o: ../pricing_policy.c
 CMakeFiles/camping.dir/pricing_policy.c.o: ../pricing_policy.h
 

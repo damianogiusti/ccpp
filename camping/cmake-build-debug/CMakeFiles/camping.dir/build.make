@@ -153,28 +153,28 @@ CMakeFiles/camping.dir/pricing_policy.c.o.provides: CMakeFiles/camping.dir/prici
 CMakeFiles/camping.dir/pricing_policy.c.o.provides.build: CMakeFiles/camping.dir/pricing_policy.c.o
 
 
-CMakeFiles/camping.dir/date.c.c.o: CMakeFiles/camping.dir/flags.make
-CMakeFiles/camping.dir/date.c.c.o: ../date.c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damiano/c-projects/camping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/camping.dir/date.c.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/camping.dir/date.c.c.o   -c /home/damiano/c-projects/camping/date.c.c
+CMakeFiles/camping.dir/date.c.o: CMakeFiles/camping.dir/flags.make
+CMakeFiles/camping.dir/date.c.o: ../date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/damiano/c-projects/camping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/camping.dir/date.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/camping.dir/date.c.o   -c /home/damiano/c-projects/camping/date.c
 
-CMakeFiles/camping.dir/date.c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/camping.dir/date.c.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/damiano/c-projects/camping/date.c.c > CMakeFiles/camping.dir/date.c.c.i
+CMakeFiles/camping.dir/date.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/camping.dir/date.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/damiano/c-projects/camping/date.c > CMakeFiles/camping.dir/date.c.i
 
-CMakeFiles/camping.dir/date.c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/camping.dir/date.c.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/damiano/c-projects/camping/date.c.c -o CMakeFiles/camping.dir/date.c.c.s
+CMakeFiles/camping.dir/date.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/camping.dir/date.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/damiano/c-projects/camping/date.c -o CMakeFiles/camping.dir/date.c.s
 
-CMakeFiles/camping.dir/date.c.c.o.requires:
+CMakeFiles/camping.dir/date.c.o.requires:
 
-.PHONY : CMakeFiles/camping.dir/date.c.c.o.requires
+.PHONY : CMakeFiles/camping.dir/date.c.o.requires
 
-CMakeFiles/camping.dir/date.c.c.o.provides: CMakeFiles/camping.dir/date.c.c.o.requires
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.o.provides.build
-.PHONY : CMakeFiles/camping.dir/date.c.c.o.provides
+CMakeFiles/camping.dir/date.c.o.provides: CMakeFiles/camping.dir/date.c.o.requires
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.o.provides.build
+.PHONY : CMakeFiles/camping.dir/date.c.o.provides
 
-CMakeFiles/camping.dir/date.c.c.o.provides.build: CMakeFiles/camping.dir/date.c.c.o
+CMakeFiles/camping.dir/date.c.o.provides.build: CMakeFiles/camping.dir/date.c.o
 
 
 # Object files for target camping
@@ -183,7 +183,7 @@ camping_OBJECTS = \
 "CMakeFiles/camping.dir/camping_main.c.o" \
 "CMakeFiles/camping.dir/main_menu.c.o" \
 "CMakeFiles/camping.dir/pricing_policy.c.o" \
-"CMakeFiles/camping.dir/date.c.c.o"
+"CMakeFiles/camping.dir/date.c.o"
 
 # External object files for target camping
 camping_EXTERNAL_OBJECTS =
@@ -192,7 +192,7 @@ camping: CMakeFiles/camping.dir/camping_group.c.o
 camping: CMakeFiles/camping.dir/camping_main.c.o
 camping: CMakeFiles/camping.dir/main_menu.c.o
 camping: CMakeFiles/camping.dir/pricing_policy.c.o
-camping: CMakeFiles/camping.dir/date.c.c.o
+camping: CMakeFiles/camping.dir/date.c.o
 camping: CMakeFiles/camping.dir/build.make
 camping: CMakeFiles/camping.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/damiano/c-projects/camping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable camping"
@@ -207,7 +207,7 @@ CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/camping_group.c.o.requir
 CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/camping_main.c.o.requires
 CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/main_menu.c.o.requires
 CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/pricing_policy.c.o.requires
-CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/date.c.c.o.requires
+CMakeFiles/camping.dir/requires: CMakeFiles/camping.dir/date.c.o.requires
 
 .PHONY : CMakeFiles/camping.dir/requires
 

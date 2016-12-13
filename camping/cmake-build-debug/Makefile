@@ -177,32 +177,32 @@ camping_main.c.s:
 	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/camping_main.c.s
 .PHONY : camping_main.c.s
 
-date.c.o: date.c.c.o
+date.o: date.c.o
 
-.PHONY : date.c.o
+.PHONY : date.o
 
 # target to build an object file
-date.c.c.o:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.o
-.PHONY : date.c.c.o
+date.c.o:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.o
+.PHONY : date.c.o
 
-date.c.i: date.c.c.i
+date.i: date.c.i
 
-.PHONY : date.c.i
+.PHONY : date.i
 
 # target to preprocess a source file
-date.c.c.i:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.i
-.PHONY : date.c.c.i
+date.c.i:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.i
+.PHONY : date.c.i
 
-date.c.s: date.c.c.s
+date.s: date.c.s
 
-.PHONY : date.c.s
+.PHONY : date.s
 
 # target to generate assembly for a file
-date.c.c.s:
-	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.c.s
-.PHONY : date.c.c.s
+date.c.s:
+	$(MAKE) -f CMakeFiles/camping.dir/build.make CMakeFiles/camping.dir/date.c.s
+.PHONY : date.c.s
 
 main_menu.o: main_menu.c.o
 
@@ -273,9 +273,9 @@ help:
 	@echo "... camping_main.o"
 	@echo "... camping_main.i"
 	@echo "... camping_main.s"
-	@echo "... date.c.o"
-	@echo "... date.c.i"
-	@echo "... date.c.s"
+	@echo "... date.o"
+	@echo "... date.i"
+	@echo "... date.s"
 	@echo "... main_menu.o"
 	@echo "... main_menu.i"
 	@echo "... main_menu.s"

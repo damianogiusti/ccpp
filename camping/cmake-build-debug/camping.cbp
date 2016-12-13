@@ -96,7 +96,7 @@
 		<Unit filename="/home/damiano/c-projects/camping/camping_main.h">
 			<Option target="camping"/>
 		</Unit>
-		<Unit filename="/home/damiano/c-projects/camping/date.c.c">
+		<Unit filename="/home/damiano/c-projects/camping/date.c">
 			<Option target="camping"/>
 		</Unit>
 		<Unit filename="/home/damiano/c-projects/camping/date.h">
